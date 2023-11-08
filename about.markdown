@@ -1,18 +1,11 @@
 ---
-layout: page
+layout: archive
 title: About
 permalink: /about/
 ---
 
-This is the base Jekyll theme. You can find out more info about customizing your Jekyll theme, as well as basic Jekyll usage documentation at [jekyllrb.com](https://jekyllrb.com/)
+# Hi! I'm Nidhi Uppoor
 
-You can find the source code for Minima at GitHub:
-[jekyll][jekyll-organization] /
-[minima](https://github.com/jekyll/minima)
+Here I need write my bio and include a few paragraphs about myself and my career aspirations based on the framework suggested.
 
-You can find the source code for Jekyll at GitHub:
-[jekyll][jekyll-organization] /
-[jekyll](https://github.com/jekyll/jekyll)
-
-
-[jekyll-organization]: https://github.com/jekyll
+According to the mentioned framework I need to talk about three topics in my bio. The three topics being - The story of my career, what I am passionate and a call to action that indicates exactly why I am making this portfolio
