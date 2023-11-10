@@ -1,0 +1,8 @@
+Leigh Stewardson:
+  name        : "Nidhi Uppoor"
+  bio         : "Let's talk about code! Reach out via the links below."
+  avatar      : "/assets/images/nidhi.png"
+  links:
+    - label: "Email"
+      icon: "fas fa-fw fa-envelope-square"
+      url: "mailto:nidhi_u@hotmail.com"

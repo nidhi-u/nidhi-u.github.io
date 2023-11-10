@@ -3,6 +3,8 @@
 # To modify the layout, see https://jekyllrb.com/docs/themes/#overriding-theme-defaults
 
 layout: home
+author: Nidhi Uppoor
+author_profile: true
 ---
 ![nidhi uppoor](/assets/images/nidhi.png){: .avatar}
 # Hi! I'm Nidhi Uppoor. 
