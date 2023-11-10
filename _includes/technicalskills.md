@@ -1,8 +1,3 @@
----
-layout: default
-title: Skills
----
-
 | Skill | Level |
 | ---- | ---- |
 {% assign skills = site.data.skills.technical | sort: "title" -%}
