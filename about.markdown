@@ -2,6 +2,8 @@
 layout: archive
 title: About
 permalink: /about/
+author: Nidhi Uppoor
+author_profile: true
 ---
 
 # Hi! I'm Nidhi Uppoor
