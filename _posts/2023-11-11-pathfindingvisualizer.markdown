@@ -4,7 +4,7 @@ title:  "Pathfinding Visualizer"
 date:   2023-11-11 18:59:00 +0000
 categories: work
 highlight_home: true
-tags: education
+tags: C++, SFML
 header:
  overlay_image: "/assets/images/pathfinding/overlay.png"
  teaser: "/assets/images/pathfinding/overlay.png"
