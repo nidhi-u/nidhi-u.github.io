@@ -35,3 +35,9 @@ The code creates a grid and randomly assigns some of the cells as walls to creat
 
 We can then select the algorithm to run and view the cells that the algorithm visited as well as the path it chose to reach the end point. The total number of cells visited and the time taken by the algorithms are outputted.
 
+<video width="320" height="240" controls>
+  <source src="assets/images/pathfinding/sample_video.mp4" type="video/mp4">
+  Your browser does not support the video tag.
+</video>
+
+### Conclusion

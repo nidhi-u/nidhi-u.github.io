@@ -1,7 +1,7 @@
 .archive__item {
     /* position: relative; */
     padding: 0.5em;
-    border: thin solid #FFFFFF;
+    border: thin solid #FFC110;
 }
 
 @media only screen and (min-width: 900px) {
@@ -14,7 +14,7 @@ article.archive__item {
 }
 }
 
-@media only screen and (max-width: 900px) {
+@media only screen and (max-width: 1500px) {
     .archive__item-teaser img {
         height: auto !important;
         width: 100% !important;
@@ -33,7 +33,7 @@ article.archive__item {
 }
 
 .archive__item-teaser {
-    border: thin solid #FFFFFF;
+    border: thin solid #FFC110;
     height: 95px;
 
     img {
