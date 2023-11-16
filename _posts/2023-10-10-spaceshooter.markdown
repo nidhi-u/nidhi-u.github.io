@@ -33,7 +33,7 @@ The diagram below summarizes the gameplay and shows the entities involved in the
 
 ### Game Demo and Future Work
 <video width="640" height="480" controls loop>
-  <source src="assets/images/spaceshooter/spaceshooter_demo.mp4" type="video/mp4">
+  <source src="assets/images/spaceshooter/space_demo.mp4" type="video/mp4">
   Your browser does not support the video tag.
 </video>
 
