@@ -44,3 +44,8 @@ We can then select the algorithm to run and view the cells that the algorithm vi
 
 ### Conclusion
 In conclusion, this C++ and SFML project effectively visualizes and compares pathfinding algorithms. It provides intuitive insights into their exploration strategies and decision making processes. In certain scenarios, such as this one with an undirected graph with equal edge weights, BFS and Dijkstra's may outperform A* due to the absence of a meaningful heuristic to guide the search. This underscores the importance of algorithm selection based on the characteristics of the problem.
+
+
+
+
+--------------------------------------------
