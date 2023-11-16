@@ -10,14 +10,14 @@
 }
 
 article.archive__item {
-    height: 17em;
+    height: 14em;
 }
 }
 
 @media only screen and (max-width: 1500px) {
     .archive__item-teaser img {
         height: auto !important;
-        width: 100% !important;
+        width: 120% !important;
         position: absolute;
         top: -50%;
     }
