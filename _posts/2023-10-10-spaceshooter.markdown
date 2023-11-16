@@ -29,11 +29,11 @@ There is a health bar and a point counter at the top of the screen.
 Health packs move in the same way as the asteroids but are much rarer and restores some of the player's health when caught. Shooting a health pack does destroy it with no health restoration, discouraging the player from continuously shooting without aiming.
 
 The diagram below summarizes the gameplay and shows the entities involved in the game - 
-![Game Entities and their Functions](assets/images/spaceshooter/elements.png)
+![Game Entities and their Functions](/assets/images/spaceshooter/elements.png)
 
 ### Game Demo and Future Work
 <video width="640" height="480" controls loop>
-  <source src="assets/images/spaceshooter/space_demo.mp4" type="video/mp4">
+  <source src="/assets/images/spaceshooter/space_demo.mp4" type="video/mp4">
   Your browser does not support the video tag.
 </video>
 
