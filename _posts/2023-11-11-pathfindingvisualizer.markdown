@@ -49,4 +49,5 @@ In conclusion, this C++ and SFML project effectively visualizes and compares pat
 <br>
 <br>
 <br>
---------------------------------------------
+<br>
+<br>

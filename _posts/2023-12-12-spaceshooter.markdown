@@ -1,7 +1,7 @@
 ---
 layout: posts
 title:  "Space Shooter"
-date:   2023-10-10 18:59:00 +0000
+date:   2023-12-12 18:59:00 +0000
 categories: work
 highlight_home: true
 tags: C++ SFML
@@ -29,7 +29,7 @@ There is a health bar and a point counter at the top of the screen.
 Health packs move in the same way as the asteroids but are much rarer and restores some of the player's health when caught. Shooting a health pack does destroy it with no health restoration, discouraging the player from continuously shooting without aiming.
 
 The diagram below summarizes the gameplay and shows the entities involved in the game - 
-![Game Entities and their Functions](/assets/images/spaceshooter/elements.png)
+![Game Entities and their Functions](/assets/images/spaceshooter/elements.png){:width="500" height="500"}
 
 ### Game Demo and Future Work
 <video width="640" height="480" controls loop>
@@ -38,3 +38,11 @@ The diagram below summarizes the gameplay and shows the entities involved in the
 </video>
 
 ### Conclusion
+Looking ahead, there's a lot I'm eager to do with this game. In the short term, I plan on adding animations, like flames from the spaceship engine and explosions for when entities collide. I also plan to add game music and sound effects to make the game more immersive and enjoyable. There's still plenty to learn and improve, but I'm excited for the next steps. In addition, I believe this project sets the stage for future adventures! The road ahead promises more creativity, more challenges, and undoubtedly, more fun.
+
+<br>
+<br>
+<br>
+<br>
+<br>
+<br>
