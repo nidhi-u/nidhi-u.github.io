@@ -33,9 +33,9 @@ The algorithms implemented in this project are -
 ### Working
 The code creates a grid and randomly assigns some of the cells as walls to create obstacles for the pathfinding algorithms. The Generate Map button can be used to genenate new random walls. 
 
-We can then select the algorithm to run and view the cells that the algorithm visited as well as the path it chose to reach the end point. The total number of cells visited and the time taken by the algorithms are outputted.
+We can then select the algorithm to run and view the cells that the algorithm visited as well as the path it chose to reach the end point. The total length of the paths i.e. the number of cells a path is made up of and the times taken by the algorithms are outputted.
 
-<video width="320" height="240" controls>
+<video width="640" height="480" controls loop>
   <source src="/assets/images/pathfinding/sample_video.mp4" type="video/mp4">
   Your browser does not support the video tag.
 </video>
