@@ -6,6 +6,5 @@ layout: home
 author: Nidhi Uppoor
 author_profile: true
 ---
-![nidhi uppoor](/assets/images/nidhi.png){: .avatar}
 # Hi! I'm Nidhi Uppoor. 
 I am a programmer and a game developer. Check out some of my favorite projects and articles before or go to [My Projects](/projects) to see a categorized list. You could also get to know me better at my [About Me](/about) page!
