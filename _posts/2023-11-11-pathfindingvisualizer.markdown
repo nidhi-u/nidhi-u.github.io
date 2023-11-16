@@ -17,7 +17,7 @@ Visualization of popular pathfinding algorithms
 ### Introduction:
 In computer science and game development, pathfinding algorithms play a pivotal role in shortest or optimal paths to get from one point to another. In this project, I explore and visualize the working of pathfinding algorithms - specifically, Breadth-First Search (BFS), Dijkstra's and A*.
 
-### Technology Used
+### Development Tools
 I developed this project in Visual Studio using C++ and SFML (Simple and Fast Multimedia Library), a graphics library that facilitates the creation of interactive applications. 
 
 ### Algorithms
@@ -45,7 +45,8 @@ We can then select the algorithm to run and view the cells that the algorithm vi
 ### Conclusion
 In conclusion, this C++ and SFML project effectively visualizes and compares pathfinding algorithms. It provides intuitive insights into their exploration strategies and decision making processes. In certain scenarios, such as this one with an undirected graph with equal edge weights, BFS and Dijkstra's may outperform A* due to the absence of a meaningful heuristic to guide the search. This underscores the importance of algorithm selection based on the characteristics of the problem.
 
-
-
-
+<br>
+<br>
+<br>
+<br>
 --------------------------------------------

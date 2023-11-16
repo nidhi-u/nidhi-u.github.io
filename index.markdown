@@ -6,5 +6,4 @@ layout: home
 author: Nidhi Uppoor
 author_profile: true
 ---
-Hi! I'm Nidhi Uppoor. 
-I am a programmer and a game developer. Check out some of my favorite projects and articles before or go to [My Projects](/projects) to see a categorized list. You could also get to know me better at my [About Me](/about) page!
+Hello, I'm Nidhi Uppoor. I am a programmer, game developer and a tech enthusiast and I welcome you to my digital portfolio! Check out some of my favorite projects and articles before or go to [My Projects](/projects) to see a categorized list. You could also get to know me better at my [About Me](/about) page!
