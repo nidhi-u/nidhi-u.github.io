@@ -4,13 +4,15 @@ title:  "Pathfinding Visualizer"
 date:   2023-11-11 18:59:00 +0000
 categories: work
 highlight_home: true
-tags: C++, SFML
+tags: C++ SFML
 header:
  overlay_image: "/assets/images/pathfinding/overlay.png"
  teaser: "/assets/images/pathfinding/overlay.png"
  caption: "Sample Output"
 ---
 Visualization of popular pathfinding algorithms
+
+> To review the code files of this project, check out its GitHub repository at [Pathfinding Visualizer on GitHub](https://github.com/nidhi-u/PathfindingVisualizer).
 
 ### Introduction:
 In computer science and game development, pathfinding algorithms play a pivotal role in shortest or optimal paths to get from one point to another. In this project, I explore and visualize the working of pathfinding algorithms - specifically, Breadth-First Search (BFS), Dijkstra's and A*.
@@ -41,3 +43,4 @@ We can then select the algorithm to run and view the cells that the algorithm vi
 </video>
 
 ### Conclusion
+In conclusion, this C++ and SFML project effectively visualizes and compares pathfinding algorithms. It provides intuitive insights into their exploration strategies and decision making processes. In certain scenarios, such as this one with an undirected graph with equal edge weights, BFS and Dijkstra's may outperform A* due to the absence of a meaningful heuristic to guide the search. This underscores the importance of algorithm selection based on the characteristics of the problem.
