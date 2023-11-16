@@ -1,15 +1,27 @@
 technical:
- - title: CSS and SCSS
-   level: Intermediate
- - title: HTML5
-   level: Intermediate
- - title: JavaScrpt
+ - title: Unity Engine
    level: Advanced
- - title: ReactJS
+ - title: Unreal Engine
+   level: Beginner
+ - title: C++
+   level: Intermediate
+ - title: HTML5, CSS
+   level: Intermediate
+ - title: C#
+   level: Intermediate
+ - title: Python
    level: Advanced
+ - title: Adobe Illustrator and Photoshop
+   level: Intermediate
 
 soft:
- - title: Writing
+ - title: Creativity
+   level: Advanced
+ - title: Communication
    level: Intermediate
- - title: Leadership
+ - title: Adaptability
+   level: Advanced
+ - title: Problem-Solving
+   level: Intermediate
+ - title: Collaboration
    level: Intermediate
