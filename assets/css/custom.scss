@@ -1,7 +1,6 @@
 --- 
 #to make sure Jekyll reads this 
 --- 
-{
 @import "default";
 @import "author";
 @import "footer";
@@ -10,5 +9,3 @@
 @import "nav";
 @import "post";
 @import "taxonomy";
-@import "archive";
-}
