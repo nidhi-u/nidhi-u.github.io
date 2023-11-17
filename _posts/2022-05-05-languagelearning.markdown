@@ -25,7 +25,10 @@ In the past years, society has evolved exponentially in terms of technology and 
 ### Prototype Demo
 During the course of our research, we developed a prototype application. In the development of this prototype, I used Unity and C# scripting to create interactions and used Python.NET so my C# scripts could interact with the Python code developed by my teammates. In this demo, the user wakes up in their VR bedroom, first chooses to learn using fill-in-the-blank style MCQ conversations and then practices conversations with the chatbot. Both the learn and practice module, use the scenario of ordering food at a restaurant as an example.
 
-
+<video width="640" height="480" controls loop>
+  <source src="/assets/images/languagelearning/languagelearning_demo.mp4" type="video/mp4">
+  Your browser does not support the video tag.
+</video>
 
 
 <br>
