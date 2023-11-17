@@ -38,11 +38,14 @@ In total, we calculate three types of losses, cycle losses, adverserial losses -
 ### Output
 In this project, I used CycleGAN to perform style transfer between photos and Studio Ghibli art style. The results of this model can only be judged qualitatively so here are a few sample outputs.
 <br>
+<br>
 Photos to Ghibli-style art:
-![example0](/assets/images/cyclegan/cyclegan_overlay.png)
+<br>
+![example0](/assets/images/cyclegan/example0.png)
 ![example1](/assets/images/cyclegan/example1.png)
 <br>
 Ghibli to realistic:
+<br>
 ![example2](/assets/images/cyclegan/example2.png)
 ![example3](/assets/images/cyclegan/example3.png)
 
