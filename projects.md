@@ -5,4 +5,4 @@ author: Nidhi Uppoor
 author_profile: true
 ---
 
-This is the place where I place all my projects including the older ones that needn't be highlighted for this portfolio
+This is a categorized list of my projects, select a tag below to see projects associated with that tag.

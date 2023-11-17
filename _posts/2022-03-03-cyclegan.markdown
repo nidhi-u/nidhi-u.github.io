@@ -1,0 +1,54 @@
+---
+layout: posts
+title:  "CycleGAN Style Transfer"
+date:   2023-11-11 18:59:00 +0000
+categories: work
+highlight_home: true
+tags: AI Python
+header:
+ overlay_image: "/assets/images/cyclegan/cyclegan_overlay.png"
+ teaser: "/assets/images/cyclegan/cyclegan_overlay.png"
+ caption: "Sample Output"
+---
+Unpaired Image-to-image style transfer using CycleGAN
+
+> To review the code for this project, visit [CycleGAN Style Transfer on GitHub](https://github.com/nidhi-u/CycleGAN)
+
+### Introduction
+Image-to-image translation is a problem where the goal is to learn the mapping between an input image and an output image using a training set of aligned image pairs. However, the requirement for paired training data is a major limitation as this data can be challenging and expensive to prepare. To overcome this limitation, we look into the use of CycleGAN which can perform image-to-image translation using unpaired data.
+
+### Model Architecture
+This approach uses the generative adversarial network (GAN) architecture which is comprised of two models: a generator model and a discriminator model. The generator takes a point from a latent space as input and generates new plausible images from the domain, and the discriminator takes an image as input and predicts whether it is real (from the dataset) or fake (generated).Both models are trained in a game, such that the generator is updated to better fool the discriminator and the discriminator is updated to better detect generated images.
+<br>
+CycleGAN is an extension of the GAN architecture that involves the simultaneous training of two generator models and two discriminator models. One generator takes images from the first domain as input and outputs images for the second domain, and the other generator takes images from the second domain as input and generates images for the first domain. Discriminator models are then used to determine how plausible the generated images are and update the generator models accordingly.
+
+### Losses Used
+In CycleGAN, as there is no paired data to train on, there is no guarantee that the input x and target y pair are meaningful during training. In order to enforce that the network learns the correct mapping, cycle consistency loss is used.
+<br>
+In cycle consistency loss,
+   • Image X is passed via generator G that yields 
+     generated image Y^.
+   • Generated image Y^ is passed via generator F 
+     that yields cycled image X^.
+   • Mean absolute error is calculated between X and 
+     X^.
+<br>
+In total, we calculate three types of losses, cycle losses, adverserial losses - generator loss and discriminator loss, and an identity loss.
+
+### Output
+In this project, I used CycleGAN to perform style transfer between photos and Studio Ghibli art style. The results of this model can only be judged qualitatively so here are a few sample outputs.
+<br>
+Photos to Ghibli-style art:
+![example0](/assets/images/cyclegan/cyclegan_overlay.png)
+![example1](/assets/images/cyclegan/example1.png)
+<br>
+Ghibli to realistic:
+![example2](/assets/images/cyclegan/example2.png)
+![example3](/assets/images/cyclegan/example3.png)
+
+<br>
+<br>
+<br>
+<br>
+<br>
+
