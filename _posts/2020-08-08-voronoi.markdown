@@ -5,8 +5,8 @@ date:   2022-05-05 18:59:00 +0000
 categories: article
 highlight_home: true
 header:
- overlay_image: "/assets/images/voronoi/diagram3.png"
- teaser: "/assets/images/voronoi/diagram3.png"
+ overlay_image: "/assets/images/voronoi/diagram4.png"
+ teaser: "/assets/images/voronoi/diagram4.png"
  caption: "Diagram"
 ---
 Mathematical Review, Fortune's Algorithm and GUI Implementation
