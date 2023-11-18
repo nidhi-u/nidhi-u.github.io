@@ -1,0 +1,71 @@
+---
+layout: posts
+title:  "Voronoi Diagrams"
+date:   2022-05-05 18:59:00 +0000
+categories: article
+highlight_home: true
+header:
+ overlay_image: "/assets/images/languagelearning/article_overlay.jpg"
+ teaser: "/assets/images/languagelearning/article_overlay.jpg"
+ caption: "Diagram"
+---
+Mathematical Review, Fortune's Algorithm and GUI Implementation
+
+### Introduction
+A Voronoi Diagram has a vast list of applications in fields ranging from archeology and astronomy to robotics and zoology. It can also be used to solve various problems in computer science such as toxic waste dump problem (largest empty circle problem), K-nearest neighbours problem, Knuth's post office problem and many more.
+<br>
+<br>
+Fortune's algorithm was one of the first ways implemented to solve a Voronoi and introduces the important concept of sweep line algorithms.
+<br>
+<br>
+So, let's understand both of these better with a series of blog posts and a simple GUI implementation. We first understand and visualize the concept of Voronoi diagram for a set of points on a 2-dimensional plane geometrically in terms of mathematical statements as this gives us important properties of the Voronoi diagram. Then, we look at Fortune's algorithm and understand its working and relevance.
+
+### A Mathematical Review
+
+> To read the full blog on this topic, visit [Mathematical Review of Voronoi Diagrams on Medium](https://medium.com/@nidhiuppoor/understanding-the-voronoi-diagram-bafcfb619bdb)
+
+Presented as a blog on Medium, this module details all the mathematical concepts required to compute a Voronoi diagram and discusses some of its properties.
+<br>
+<br>
+A Voronoi diagram divides a given plane in regions or cells with respect to the set of points such that for each point in the diagram the corresponding region consists of points closer to it than to any other point. The concepts of Voronoi edges and points is discussed in the blog and we see that the diagram can be viewed as a connected planar graph excluding the edges that extend to infinity. We then apply Euler's formula for planar graphs and the handshaking lemma in order to derive the geometrical complexities of a Voronoi diagram. The problem regarding edges extending to infinity is addressed by considering an additional point that all these edges connect to.
+
+### Fortune's Algorithm
+
+> To read the full blog on this topic, visit [Fortune's Algorithm on Medium](https://medium.com/@nidhiuppoor/understanding-the-voronoi-diagram-fd4cd27c15e)
+
+Presented as a blog on Medium, this module explains the algorithm given by Steven Fortune for computing the Voronoi diagram using a sweep line approach.
+<br>
+<br>
+In the blog, we take a look at its complexity as compared to other algorithms and explore a step-by-step explanation of how this algorithm is applied on a set of points on a plane. We describe parabolic arcs for each point and see how they merge to form Voronoi edges and a Voronoi vertex is defined in terms of these arcs. We also take a look at the beach line data structure in use which is a balanced binary tree.
+
+### A GUI Implementation
+
+> To review the code for this GUI implementation, check out [Voronoi Diagrams GUI Implementation on GitHub](https://github.com/nidhi-u/VoronoiDiagram)
+
+This module consists of a Python GUI made using Tkinter which presents a canvas to the user. On this canvas, the user double-clicks their left mouse button to plot points. The calculate button can then be used to compute a Voronoi diagram for the points using the scipy.spatial.Voronoi module which is an inbuilt function in the scipy package. We plot this diagram.
+<br>
+<br>
+![Diagram 1](/assets/images/voronoi/diagram1.png)
+<br>
+<br>
+We can choose the continue button to unlock the canvas and add more points to the existing set of points and see how the Voronoi diagram is affected.
+<br>
+<br>
+![Diagram 2](/assets/images/voronoi/diagram2.png)
+<br>
+<br>
+The clear button clears and unlocks the canvas so that we may start anew. The Toxic Dump button allows us to visualize the solution to the toxic waste dump problem (also known as largest empty circle problem) wherein we try to find a circle within our diagram such that it has the largest diameter while also having no points within it. We see that the center of this circle lies on a Voronoi vertex.
+<br>
+<br>
+![Diagram 3](/assets/images/voronoi/diagram3.png)
+<br>
+<br>
+The user also has the choice to generate a random set of points by giving the number of vertices to drawn and the program then generates a Voronoi diagram for those points.
+<br>
+<br>
+![Diagram 4](/assets/images/voronoi/diagram4.png)
+<br>
+<br>
+<br>
+<br>
+<br>
