@@ -27,7 +27,7 @@ So, let's understand both of these better with a series of blog posts and a simp
 Presented as a blog on Medium, this module details all the mathematical concepts required to compute a Voronoi diagram and discusses some of its properties.
 <br>
 <br>
-A Voronoi diagram divides a given plane in regions or cells with respect to the set of points such that for each point in the diagram the corresponding region consists of points closer to it than to any other point. The concepts of Voronoi edges and points is discussed in the blog and we see that the diagram can be viewed as a connected planar graph excluding the edges that extend to infinity. We then apply Euler's formula for planar graphs and the handshaking lemma in order to derive the geometrical complexities of a Voronoi diagram. The problem regarding edges extending to infinity is addressed by considering an additional point that all these edges connect to.
+A Voronoi diagram divides a given plane in regions or cells with respect to the set of points such that for each point in the diagram, the corresponding region consists of points closer to it than to any other point. The concepts of Voronoi edges and points is discussed in the blog and we see that the diagram can be viewed as a connected planar graph excluding the edges that extend to infinity. We then apply Euler's formula for planar graphs and the handshaking lemma in order to derive the geometrical complexities of a Voronoi diagram. The problem regarding edges extending to infinity is addressed by considering an additional point that all these edges connect to.
 
 ### Fortune's Algorithm
 
@@ -60,7 +60,7 @@ The clear button clears and unlocks the canvas so that we may start anew. The To
 ![Diagram 3](/assets/images/voronoi/diagram3.png)
 <br>
 <br>
-The user also has the choice to generate a random set of points by giving the number of vertices to drawn and the program then generates a Voronoi diagram for those points.
+The user also has the choice to generate a random set of points by giving the number of vertices to be drawn and the program then generates a Voronoi diagram for those points.
 <br>
 <br>
 ![Diagram 4](/assets/images/voronoi/diagram4.png)

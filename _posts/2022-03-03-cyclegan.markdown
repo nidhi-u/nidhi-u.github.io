@@ -10,7 +10,7 @@ header:
  teaser: "/assets/images/cyclegan/cyclegan_overlay.png"
  caption: "Sample Output"
 ---
-Unpaired Image-to-image style transfer using CycleGAN
+Unpaired Image-to-Image Style Transfer using CycleGAN
 
 > To review the code for this project, visit [CycleGAN Style Transfer on GitHub](https://github.com/nidhi-u/CycleGAN)
 
@@ -33,10 +33,10 @@ In cycle consistency loss,
    • Mean absolute error is calculated between X and 
      X^.
 <br>
-In total, we calculate three types of losses, cycle losses, adverserial losses - generator loss and discriminator loss, and an identity loss.
+In total, we calculate three types of losses - cycle losses, adverserial losses i.e. generator loss and discriminator loss, and an identity loss.
 
 ### Output
-In this project, I used CycleGAN to perform style transfer between photos and Studio Ghibli art style. The results of this model can only be judged qualitatively so here are a few sample outputs.
+In this project, I used CycleGAN to perform style transfer between photos and Studio Ghibli style art. The results of this model can only be judged qualitatively so here are a few sample outputs.
 <br>
 <br>
 Photos to Ghibli-style art:

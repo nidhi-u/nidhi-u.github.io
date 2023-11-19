@@ -15,16 +15,16 @@ Visualization of popular pathfinding algorithms
 > To review the code files of this project, check out its GitHub repository at [Pathfinding Visualizer on GitHub](https://github.com/nidhi-u/PathfindingVisualizer).
 
 ### Introduction:
-In computer science and game development, pathfinding algorithms play a pivotal role in shortest or optimal paths to get from one point to another. In this project, I explore and visualize the working of pathfinding algorithms - specifically, Breadth-First Search (BFS), Dijkstra's and A*.
+In computer science and game development, pathfinding algorithms play a pivotal role in shortest or optimal paths to get from one point to another. In this project, I explore and visualize the working of pathfinding algorithms - specifically Breadth-First Search (BFS), Dijkstra's and A*.
 
 ### Development Tools
-I developed this project in Visual Studio using C++ and SFML (Simple and Fast Multimedia Library), a graphics library that facilitates the creation of interactive applications. 
+I developed this project in Visual Studio using C++ and SFML (Simple and Fast Multimedia Library) - a graphics library that facilitates the creation of interactive applications. 
 
 ### Algorithms
 The algorithms implemented in this project are -
 
 1. Breadth-First Search (BFS): A fundamental        
-   algorithm in graph theory, explores all the vertices at the current depth before movig on to the next depth level.
+   algorithm in graph theory, explores all the vertices at the current depth before moving on to the next depth level.
 
 2. Dijkstra's Algorithm: An informed algorithm, 
    makes decisions based on the accumulated cost to reach each node and finds the path with the minimum total cost.
@@ -35,7 +35,7 @@ The algorithms implemented in this project are -
 ### Working
 The code creates a grid and randomly assigns some of the cells as walls to create obstacles for the pathfinding algorithms. The Generate Map button can be used to genenate new random walls. 
 
-We can then select the algorithm to run and view the cells that the algorithm visited as well as the path it chose to reach the end point. The total length of the paths i.e. the number of cells a path is made up of and the times taken by the algorithms are outputted.
+We can then select the algorithm to be run and view the cells that the algorithm visited as well as the path it chose to reach the end point. The total length of the paths i.e. the number of cells a path is made up of and the times taken by the algorithms are outputted.
 
 <video width="640" height="480" controls loop>
   <source src="/assets/images/pathfinding/sample_video.mp4" type="video/mp4">
