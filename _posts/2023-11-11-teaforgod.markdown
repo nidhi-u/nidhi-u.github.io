@@ -1,6 +1,6 @@
 ---
 layout: posts
-title:  "Technical Analysis of 'Tea for God': A VR Paradigm Shift"
+title:  "Technical Analysis of 'Tea for God'"
 date:   2023-11-11 18:59:00 +0000
 categories: article
 highlight_home: true
@@ -9,6 +9,7 @@ header:
  teaser: "/assets/images/teaforgod/teaforgod.jpg"
  caption: "Photo credit: https://void-room.itch.io/tea-for-god"
 ---
+A VR Paradigm Shift
 
 ### Introduction and Impossible Spaces
 “Tea for God” is a game that introduces innovative technical elements to enhance user experience, and has caused a subtle yet noticeable shift in the virtual reality (VR) gaming landscape. This analysis seeks to provide a nuanced exploration of the technical complexities of the game’s distinct approach to VR immersion.
