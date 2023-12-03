@@ -6,11 +6,11 @@ categories: work
 highlight_home: true
 tags: AI Python
 header:
- overlay_image: "/assets/images/driverdrowsiness/drowsiness1.png"
- teaser: "/assets/images/driverdrowsiness/drowsiness1.png"
- caption: "Data Flow Diagram"
+ overlay_image: "https://th.bing.com/th/id/OIP.GLg_NE90q71wgKc6mE0fdQHaE8?rs=1&pid=ImgDetMain"
+ teaser: "https://th.bing.com/th/id/OIP.GLg_NE90q71wgKc6mE0fdQHaE8?rs=1&pid=ImgDetMain"
+ caption: "Credit: https://robertdebry.com/dangers-drowsy-driving/"
 ---
-Drowsiness Detection System using Convolutional Neural Networks
+Using Convolutional Neural Networks
 
 > To review the code for this project, visit [Real Time Driver Drowsiness Detection on GitHub](https://github.com/nidhi-u/RealTimeDriverDrowsinessDetection)
 
