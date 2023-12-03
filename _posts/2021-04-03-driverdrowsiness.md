@@ -24,21 +24,31 @@ By capturing visual information of the driver and using this behavioral data wit
 ![Data Flow Diagram](/assets/images/driverdrowsiness/drowsiness1.png)
 <br>
 Pertinent Processes:
+<br>
+<br>
 1) Collect input: It takes in video feed from the user's device and breaks it down to frames for further processing.
+<br>
 <br>
 2) Convert to Grayscale: Convert each individual video frame to grayscale.
 <br>
+<br>
 3) Resize Image: Resize the image to a uniform dimension.
+<br>
 <br>
 4) Face and Eye Detection: From the processed image, detect face and eye in the given frame.
 <br>
+<br>
 5) Crop image: After facial parts crucial to the algorithm have been detected, we crop the rest out.
+<br>
 <br>
 6) Detecting Drowsiness: We feed these optimally cropped images to our detection models to detect drowsiness levels.
 <br>
+<br>
 7) Train Eye and Yawn Classifier Model: Train the model to classify yawn from no_yawn and eye open or close.
 <br>
+<br>
 8) Determine Drowsiness Level against Threshold: After detecting the drowsiness level of the user, the system compares it to the decided threshold value.
+<br>
 <br>
 9) Alarm Ringer: If the drowsiness level crosses the decided threshold, the drowsiness has reached a critical value and the system rings out an alarm to alert the driver.
 
