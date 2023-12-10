@@ -18,7 +18,7 @@ Using Convolutional Neural Networks
 One of the most prevailing problems across the globe today is the booming number of road accidents. Driver's drowsiness or lack of concentration is considered as a dominant reason for such mishaps. This project therefore proposes an approach to implement a driver drowsiness alert system which would calculate the driver's sleepiness and prevent such accidents caused by the same.
 <br>
 <br>
-By capturing visual information of the driver and using this behavioral data with AI, we have developed a real-time drowsiness detection system based on Convolutional Neural Networks (CNNs). Here, we create a classification network to determine if the driver's eyes are closed and whether the driver is yawning. The system capture's the driver's images and examines eye and mouth positions and uses this data and our CNN model to detect fatigue. Continuously monitoring the driver's state, as soon as the driver indicates drowsiness, the system sounds an alarm to alert the driver.
+By capturing visual information about the driver and using this behavioral data with AI, we have developed a real-time drowsiness detection system based on Convolutional Neural Networks (CNNs). Here, we create a classification network to determine if the driver's eyes are closed and whether the driver is yawning. The system captures the driver's images and examines eye and mouth positions and uses this data and our CNN model to detect fatigue. Continuously monitoring the driver's state, as soon as the driver indicates drowsiness, the system sounds an alarm to alert the driver.
 
 ### Data Flow and Process Descriptions
 ![Data Flow Diagram](/assets/images/driverdrowsiness/drowsiness1.png)
