@@ -15,7 +15,7 @@ Visualization of popular pathfinding algorithms
 > To review the code files of this project, check out its GitHub repository at [Pathfinding Visualizer on GitHub](https://github.com/nidhi-u/PathfindingVisualizer).
 
 ### Introduction:
-In computer science and game development, pathfinding algorithms play a pivotal role in shortest or optimal paths to get from one point to another. In this project, I explore and visualize the working of pathfinding algorithms - specifically Breadth-First Search (BFS), Dijkstra's and A*.
+In computer science and game development, pathfinding algorithms play a pivotal role in finding the shortest or most optimal paths to get from one point to another. In this project, I explore and visualize the working of pathfinding algorithms - specifically Breadth-First Search (BFS), Dijkstra's and A*.
 
 ### Development Tools
 I developed this project in Visual Studio using C++ and SFML (Simple and Fast Multimedia Library) - a graphics library that facilitates the creation of interactive applications. 
